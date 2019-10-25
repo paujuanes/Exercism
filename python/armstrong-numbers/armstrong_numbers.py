@@ -4,5 +4,4 @@ def is_armstrong_number(number):
     for i in range(len(strNum)):
         digit = int(strNum[i])**len(strNum)
         digitSum += digit
-    if number == digitSum: return True
-    return False
+    return number == digitSum
